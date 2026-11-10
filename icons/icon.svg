@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12305A"/>
+      <stop offset="1" stop-color="#0A1A33"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- montañas -->
+  <path d="M0 372 L118 270 L178 318 L272 222 L360 300 L420 262 L512 330 L512 512 L0 512 Z" fill="#1E4E86" opacity="0.55"/>
+  <path d="M272 222 L300 246 L284 244 L272 256 L258 240 Z" fill="#E6F4FF" opacity="0.85"/>
+  <path d="M118 270 L136 286 L122 284 L114 292 L104 282 Z" fill="#E6F4FF" opacity="0.7"/>
+  <!-- suelo -->
+  <rect x="0" y="392" width="512" height="120" fill="#0A1A33"/>
+  <line x1="96" y1="392" x2="416" y2="392" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <!-- marchador -->
+  <g stroke="#38BDF8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- bastones -->
+    <line x1="318" y1="226" x2="232" y2="392" stroke-width="9"/>
+    <line x1="202" y1="250" x2="150" y2="392" stroke-width="9" opacity="0.75"/>
+    <!-- pierna trasera -->
+    <polyline points="250,272 214,322 176,382" stroke-width="22" opacity="0.75"/>
+    <!-- pierna delantera -->
+    <polyline points="250,272 290,322 300,384" stroke-width="22"/>
+    <line x1="300" y1="384" x2="326" y2="384" stroke-width="16"/>
+    <line x1="176" y1="382" x2="196" y2="388" stroke-width="16" opacity="0.75"/>
+    <!-- tronco -->
+    <line x1="250" y1="272" x2="272" y2="170" stroke-width="28"/>
+    <!-- brazo trasero -->
+    <polyline points="268,186 236,226 202,250" stroke-width="16" opacity="0.75"/>
+    <!-- brazo delantero -->
+    <polyline points="268,186 302,206 318,226" stroke-width="16"/>
+  </g>
+  <circle cx="284" cy="132" r="25" fill="#38BDF8"/>
+  <!-- gorra -->
+  <path d="M260 126 Q284 98 308 122 L322 124 Q318 132 306 130 Z" fill="#E6F4FF"/>
+</svg>
